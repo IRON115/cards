@@ -1,0 +1,113 @@
+body{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 22px;
+
+}
+
+i{
+    visibility: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;   
+    height: 100%;
+    width: 100%;
+    max-height: 600px;
+    max-width: 1200px;
+    min-height: 400px;
+    min-width: 1000px;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    left: 400px;
+    position: absolute;
+
+}
+
+.box{
+    position: relative;
+    height: 364px;
+    width: 285px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 0.5s;
+    
+}
+
+.box:hover{
+      border: 1px solid #fff;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 379px;
+    width: 300px;
+    background: grey;
+    border-radius: 10px;
+    transition: background 1s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+}
+
+.first-card{
+    background-image: url(img/Tomas.png);
+    background-size: 300px;    
+}
+
+.first-card:hover{
+    background-image: url(img/Tomas.png);
+    background-size: 445px;
+    opacity: 1;
+}
+
+.mesengers{
+    opacity: 1;
+}
+
+.name{
+    opacity: 0;
+    color: #fff;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    z-index: 5;
+}
+
+.second-card{
+    background-image: url(img/Artur.png);
+    background-size: 300px;    
+}
+
+.second-card:hover{
+    background-image: url(img/Artur.png);
+    background-size: 445px;
+}
+
+.third-card{
+    background-image: url(img/John.png);
+    background-size: 300px;    
+}
+
+.third-card:hover{
+    background-image: url(img/John.png);
+    background-size: 445px;
+}
